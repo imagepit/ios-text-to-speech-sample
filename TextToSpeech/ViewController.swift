@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         label.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: 20)
         label.center = self.view.center
         label.text = " I have a pen."
+        label.textAlignment = .center
         self.view.addSubview(label)
         
         button.frame = CGRect(x: 0, y: 0, width: 300, height: 30)
